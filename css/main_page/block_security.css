@@ -1,0 +1,53 @@
+.block_security {
+    max-width: 1920px;
+    height: 687px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.back_layer {
+    width: 1920px;
+    height: 687px;
+    mix-blend-mode: color;
+    position: absolute;
+    background: #DC911B;
+}
+
+.back_layer_2 {
+    background: #DC911B;
+    width: 1920px;
+    height: 687px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+/*podblock_defend_work*/
+.podblock_defend_work {
+    display: flex;
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.podblock_defend_work_row {
+    position: relative;
+    display: flex;
+}
+
+.defend_work_text {
+    color: #3E3E3D;
+    font-family: var(--Roboto-sans);
+    font-weight: 600;
+    font-size: 32px;
+    width: 448px;
+    height: 144px;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+.defender {
+    background: url("../../img/defenders.png");
+    width: 914px;
+    height: 606px;
+}

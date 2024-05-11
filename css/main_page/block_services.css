@@ -1,0 +1,257 @@
+.block_services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+}
+
+.block_services button {
+    background-color: white;
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    border: 1px solid #dc911b;
+    border-radius: 5px;
+    padding: 11px 25px;
+    transition: 0.7s;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.block_services button:hover {
+    background: #dc911b;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*podblock_service_services_block*/
+.podblock_service_services_block {
+    width: 100%;
+    height: 43px;
+    margin-top: 99px;
+    margin-bottom: 60px;
+    font-family: var(--Roboto-sans);
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/*podblock_Industrial_Safety_services_block*/
+.podblock_Industrial_Safety_services_block {
+    width: 1289px;
+    height: 406px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.first_line {
+    position: absolute;
+    z-index: 0;
+    margin-top: 196px;
+    width: 301px;
+    margin-left: -315px;
+}
+
+.people_and_shield_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1136px;
+    margin-left: -13px;
+    margin-top: 84px;
+}
+
+.people_and_shield_text_div {
+    width: 576px;
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.people_and_shield_text_div h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.people_and_shield_text_div p {
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 38px;
+}
+
+/*podblock_present_work_services_block*/
+.podblock_present_work_services_block {
+    width: 1086px;
+    height: 406px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.people_present_work_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1096px;
+    margin-top: auto;
+    margin-left: 22px;
+    margin-right: -35px;
+    padding-bottom: 0.8px;
+}
+
+.people_present_work_text_div {
+    width: 576px;
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.people_present_work_text_div h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.people_present_work_text_div p {
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 38px;
+}
+
+.second_line {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -2.6px;
+    z-index: 0;
+}
+
+/*podblock_people_and_engine_services_block*/
+.third_line {
+    position: absolute;
+    margin-left: 396px;
+    margin-top: -4px;
+    z-index: 0;
+}
+
+.podblock_people_and_engine_services_block {
+    width: 1289px;
+    height: 484px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.people_and_engine_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1096px;
+    height: 319px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.people_and_engine_text_div {
+    width: 575px;
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.people_and_engine_text_div h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.people_and_engine_text_div p {
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 38px;
+}
+
+/*podblock_people_on_chair_services_block*/
+.fourth_line {
+    position: absolute;
+    margin-left: -215px;
+    margin-top: -65px;
+    z-index: 0;
+}
+
+.podblock_people_on_chair_services_block {
+    width: 1289px;
+    height: 484px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.people_on_chair_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1096px;
+    height: 319px;
+    margin-left: 144px;
+    margin-bottom: 96px;
+
+}
+
+.people_on_chair_text_div {
+    width: 575px;
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.people_on_chair_text_div h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.people_on_chair_text_div p {
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 38px;
+}
+
+.fifth_line {
+    position: absolute;
+    margin-left: 1240px;
+    margin-top: 350px;
+    z-index: 0;
+}

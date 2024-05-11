@@ -1,0 +1,229 @@
+footer {
+    width: 1920px;
+    height: 383px;
+    background: #3e3e3d;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_row {
+    width: 1199px;
+    height: 301px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.footer_line {
+    border: 1px solid #777e89;
+    width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: 58px;
+}
+
+.footer_high_block {
+    width: 1199px;
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_high_block_podblock_about {
+    width: 99px;
+    height: 166px;
+}
+
+.footer_high_block h2 {
+    font-family: var(--Montserrat-sans);
+    font-weight: 700;
+    font-size: 15px;
+    height: 16px;
+    line-height: 107%;
+    color: #fff;
+}
+
+.footer_high_block_podblock_catalog {
+    width: 65px;
+    height: 85px;
+}
+
+.footer_high_block_podblock_contacts {
+    width: 79px;
+    height: 16px;
+}
+
+.footer_high_block_podblock_search {
+    width: 420px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_high_block_podblock_search input {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 420px;
+    height: 43px;
+    padding-left: 18px;
+    background: transparent;
+    outline-width: 0;
+    font-family: var(--Montserrat-sans);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 146%;
+    color: #dadada;
+}
+
+.footer_high_block_podblock_search input::placeholder {
+    font-family: var(--Montserrat-sans);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 146%;
+    color: #dadada;
+}
+
+.footer_high_block_p_div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.footer_high_block_p_div p {
+    font-family: var(--Montserrat-sans);
+    font-weight: 400;
+    font-size: 14px;
+    height: 16px;
+    line-height: 193%;
+    color: #777e89;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.footer_high_block_p_div p:hover {
+    transform: scale(1.1);
+}
+
+.loop_svg {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 15px;
+}
+
+.footer_high_block_group_adress {
+    margin-top: 28px;
+    width: 420px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_high_block_group_adress button {
+    width: 175px;
+    height: 41px;
+    background-color: #FD9913;
+    font-family: var(--Montserrat-sans);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 121%;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.footer_high_block_group_adress button:hover {
+    transform: scale(1.1);
+}
+
+.footer_high_block_podgroup_email_and_city {
+    display: flex;
+    justify-content: space-between;
+    width: 141px;
+    height: 62px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_high_block_podgroup_email {
+    display: flex;
+    justify-content: space-between;
+    width: 141px;
+    height: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.footer_high_block_podgroup_email a {
+    font-family: var(--Montserrat-sans);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.footer_high_block_podgroup_email:hover {
+    transform: scale(1.1);
+}
+
+.footer_high_block_podgroup_city {
+    cursor: pointer;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 119px;
+    height: 20px;
+
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.footer_high_block_podgroup_city a {
+    font-family: var(--Montserrat-sans);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+}
+
+.footer_high_block_podgroup_city:hover {
+    transform: scale(1.1);
+}
+
+.footer_high_block_podgroup_phone_and_button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 175px;
+    height: 79px;
+}
+
+.footer_high_block_podgroup_phone {
+    width: 171px;
+    height: 23px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+.footer_low_block {
+    width: 648px;
+    height: 25px;
+    margin-bottom: 52px;
+    margin-right: auto;
+    font-family: var(--Montserrat-sans);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 146%;
+    color: #777e89;
+    display: flex;
+    justify-content: space-between;
+}

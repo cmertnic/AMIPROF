@@ -1,0 +1,130 @@
+@media (max-width: 1919px) {
+    .back_layer {
+        width: 100%;
+    }
+
+    .back_layer_2 {
+        width: 100%;
+    }
+
+    .block_defend_work {
+        margin-left: 10%;
+    }
+
+    .block_services {
+        width: 100%;
+    }
+
+    .podblock_Industrial_Safety_services_block {
+        width: 100%;
+    }
+
+    .first_line {
+        margin-left: 3px;
+    }
+
+    .second_line {
+        margin-left: 13%;
+    }
+
+    .people_and_shield_div {
+        margin-left: 16%;
+    }
+
+    .fifth_line {
+        margin-left: 65%;
+    }
+
+    .people_on_chair_div {
+        margin-left: 9%;
+    }
+
+    .block_reviews {
+        width: 100%;
+    }
+
+    .block_reviews_row {
+        margin-right: 42%;
+    }
+
+    .block_projects {
+        width: 100%;
+    }
+
+    .block_important_news {
+        width: 100%;
+    }
+
+    .block_questions {
+        width: 100%;
+    }
+
+    .block_Useful_articles {
+        width: 100%;
+    }
+
+    .block_certificates {
+        width: 100%;
+    }
+
+    .block_our_clients {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .Call_man {
+        margin-left: 24%;
+    }
+
+    .Call_woman {
+        margin-left: 55%;
+    }
+
+    .block_certificates_row {
+        margin-right: 40%;
+    }
+
+    .block_Useful_articles_row {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .Call_man {
+        margin-left: 22%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .Call_man {
+        margin-left: 20%;
+    }
+    .people_and_files {
+        margin-left: 51%;
+    }
+}
+@media (max-width: 1611px) {
+    .podblock_defend_work {
+        margin-left: 10%;
+    }
+    .block_certificates_row{
+        margin-left: 0px;
+    }
+    .people_and_files {
+        margin-left: 46%;
+    }
+}
+@media (max-width: 1520px) {
+    .podblock_defend_work {
+        margin-left: 0;
+    }
+    .rating_people {
+        margin-left: 40%;
+    }
+    .header_contact_podblock p {
+        width: auto;
+    }
+}

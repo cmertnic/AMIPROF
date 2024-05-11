@@ -1,0 +1,122 @@
+.block_projects {
+    width: 1920px;
+    height: 982px;
+    margin-top: 77px;
+    margin-bottom: 135px;
+    display: flex;
+}
+
+.block_projects image {
+    width: 556px;
+    height: 312px;
+}
+
+.block_projects h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+    height: 43px;
+}
+
+.block_projects_row {
+    width: 1089px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_projects_podblock {
+    width: 1068px;
+    height: 312px;
+    margin-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_projects_date {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #6f6f6e;
+    width: 54px;
+    margin-top: auto;
+    margin-bottom: 17px;
+}
+
+.image_and_date_div {
+    width: 762px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_and_date_div h2 {
+    font-family: var(--Roboto-sans);
+    position: absolute;
+    margin-top: 146px;
+}
+
+.block_projects_text_and_button {
+    width: 247px;
+    height: 161px;
+    display: flex;
+    margin-top: auto;
+}
+
+.block_projects_text_and_button p {
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+}
+
+.block_projects_text_and_button button {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 119px;
+    background-color: #DC911B;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.block_projects_text_and_button button:hover {
+    transform: scale(1.1);
+}
+
+.all_projects {
+    display: flex;
+    width: 144px;
+    justify-content: space-between;
+    margin-left: auto;
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.all_projects button {
+    background-color: white;
+    transform: scale(1);
+    transition: 0.7s;
+    height: 24px;
+}
+
+.all_projects button :hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

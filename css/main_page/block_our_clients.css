@@ -1,0 +1,49 @@
+.block_our_clients {
+    width: 1920px;
+    height: 463px;
+    display: flex;
+    margin-bottom: 93px;
+}
+
+.block_our_clients h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+    margin-left: 207px;
+}
+
+.block_our_clients_row {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_our_clients_cards {
+    width: 1200px;
+    height: 360px;
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.block_our_clients_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 294px;
+    height: 180px;
+    border: 1px solid #f2f2f2;
+}
+
+.block_our_clients_card img {
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.block_our_clients_card img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

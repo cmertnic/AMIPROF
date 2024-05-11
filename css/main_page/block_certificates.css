@@ -1,0 +1,119 @@
+.block_certificates {
+    background-color: #3E3E3D;
+    width: 1920px;
+    height: 758px;
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.block_certificates button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c4c4c4;
+    width: 34px;
+    height: 34px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.block_certificates button:hover {
+    cursor: pointer;
+    background: #dc911b;
+}
+
+.block_certificates p {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 24px;
+    margin-top: 55px;
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.block_certificates p:hover {
+    transform: scale(1.1);
+}
+
+.block_certificates h2 {
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: auto;
+    margin-right: 266px;
+    margin-bottom: 106px;
+    z-index: 1;
+}
+
+.block_certificates_row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 820px;
+    margin-left: auto;
+    margin-right: 824px;
+}
+
+.people_and_files {
+    position: absolute;
+    margin-left: 900px;
+    z-index: 0;
+}
+
+/*block_certificates_slider*/
+.block_certificates_slider {
+    position: relative;
+    width: 900px;
+    overflow: hidden;
+}
+
+.block_certificates_slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.block_certificates_slide {
+    flex: 0 0 290px;
+}
+
+.block_certificates_slide_buttons {
+    display: flex;
+    transition: 0.6s ease;
+    width: 68px;
+    height: 34px;
+    margin-top: 50px;
+}
+
+.block_certificates_slide_buttons_and_text {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin-right: 24px;
+}
+
+.block_certificates_prev,
+.block_certificates_next {
+    cursor: pointer;
+    z-index: 2;
+}
+
+.block_certificates_prev {
+    left: 0;
+}
+
+.block_certificates_next {
+    right: 0;
+}

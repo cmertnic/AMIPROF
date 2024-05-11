@@ -1,0 +1,130 @@
+.block_important_news {
+    width: 1920px;
+    height: 471px;
+    display: flex;
+    margin-bottom: 144px;
+}
+
+.block_important_news button {
+    width: 42px;
+    height: 42px;
+    background-color: #DC911B;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.block_important_news button:hover {
+    transform: scale(1.1);
+}
+
+.block_important_news h2 {
+    width: 189px;
+    height: 129px;
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 21px;
+}
+
+.block_important_news h3 {
+    width: 165px;
+    height: 22px;
+    font-family: var(--Roboto-sans);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.block_important_news img {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 350px;
+}
+
+.block_important_news_row {
+    width: 1555px;
+    display: flex;
+    margin-right: auto;
+}
+
+.block_important_news_gray_rectangle {
+    position: absolute;
+    width: 941px;
+    height: 471px;
+    background: #edeeef;
+    z-index: 0;
+}
+
+/*podblock_important_news*/
+.podblock_important_news {
+    display: flex;
+    margin-left: auto;
+    width: 1179px;
+    height: 306px;
+    z-index: 1;
+    margin-top: auto;
+    margin-bottom: 68px;
+    justify-content: space-between;
+}
+
+.podblock_Important_news_and_date {
+    width: 228px;
+    height: 208px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 21px;
+}
+
+.podblock_Important_news_and_date p {
+    font-family: var(--Roboto-sans);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    color: #6f6f6e;
+    width: 100px;
+    height: 17px;
+}
+
+.Important_news_text_and_button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Important_news_text_and_button p {
+    font-family: var(--Roboto-sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    width: 228px;
+    height: 72px;
+}
+
+.Important_news_line {
+    margin-bottom: auto;
+}
+
+.group_podblocks_Important_news_and_date {
+    display: flex;
+    width: 564px;
+    height: 306px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.All_news {
+    margin-left: auto;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.All_news:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
