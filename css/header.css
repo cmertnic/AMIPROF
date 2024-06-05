@@ -90,3 +90,6 @@ header {
     }
 
 }
+.header_contact_podblock a::before{
+    content: url(/AMIPROF-main/img/phone.svg);
+}

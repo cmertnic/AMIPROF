@@ -51,3 +51,10 @@
     width: 914px;
     height: 606px;
 }
+@media (max-width: 1400px) {
+    .defender {
+        background: url("../../img/defenders.png");
+        width: 700px;
+        height: 100%;
+    }
+}

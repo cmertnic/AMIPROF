@@ -110,19 +110,10 @@
     .podblock_defend_work {
         margin-left: 10%;
     }
-    .block_certificates_row{
-        margin-left: 0px;
-    }
-    .people_and_files {
-        margin-left: 46%;
-    }
 }
 @media (max-width: 1520px) {
     .podblock_defend_work {
         margin-left: 0;
-    }
-    .rating_people {
-        margin-left: 40%;
     }
     .header_contact_podblock p {
         width: auto;

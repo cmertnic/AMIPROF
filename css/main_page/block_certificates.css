@@ -117,3 +117,14 @@
 .block_certificates_next {
     right: 0;
 }
+
+@media (max-width: 1611px) {
+    .block_certificates_row {
+        margin-left: 0px;
+    }
+
+    .people_and_files {
+        margin-left: 42%;
+        width: 40%;
+    }
+}

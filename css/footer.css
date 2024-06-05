@@ -112,6 +112,16 @@ footer {
     position: absolute;
     margin-left: 390px;
     margin-top: 15px;
+    background-color: none;
+    border: none;
+    background-color: Transparent;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.loop_svg:hover {
+    transform: scale(1.1);
 }
 
 .footer_high_block_group_adress {
@@ -180,7 +190,6 @@ footer {
     justify-content: space-between;
     width: 119px;
     height: 20px;
-
     transform: scale(1);
     transition: 0.7s;
 }
@@ -204,6 +213,8 @@ footer {
     height: 79px;
 }
 
+
+
 .footer_high_block_podgroup_phone {
     width: 171px;
     height: 23px;
@@ -212,7 +223,9 @@ footer {
     justify-content: space-between;
     margin-bottom: 15px;
 }
-
+.footer_high_block_podgroup_phone::before{
+    content: url(/AMIPROF-main/img/back_phone.svg);
+}
 
 .footer_low_block {
     width: 648px;
